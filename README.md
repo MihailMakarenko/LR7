@@ -1,4 +1,6 @@
-# LR7
+Выполнить запуск сервера: cd src/server
+node index.js
+Запуск клиента npm start
 
 1) Создание новой публикации
 post http://localhost:8000/api/publication
@@ -54,10 +56,6 @@ put http://localhost:8000/api/subscribers/55
 }
 7) Удаление подписчика
 delete http://localhost:8000/api/subscribers/1
-Выполнить запуск сервера: cd src/server
-node index.js
-Запуск клиента npm start
-
 
 
 1. Создание новой подписки
