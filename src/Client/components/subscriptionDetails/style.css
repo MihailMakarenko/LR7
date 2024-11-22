@@ -1,0 +1,37 @@
+.subscription-table-container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.subscription-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.subscription-table th,
+.subscription-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.subscription-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.subscription-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.subscription-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.subscription-table td {
+  color: #555;
+}

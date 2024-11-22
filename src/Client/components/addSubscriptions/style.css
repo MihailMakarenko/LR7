@@ -1,0 +1,4 @@
+.success-message {
+  color: green; /* Цвет текста для сообщения об успехе */
+  margin-top: 10px; /* Отступ сверху */
+}
